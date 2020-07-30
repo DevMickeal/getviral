@@ -112,7 +112,6 @@ body {
   content: "";
   display: block;
   width: 80px;
-  bottom: 2px;
   position: absolute;
   border-bottom: 4px solid #362f74;
 }
@@ -135,7 +134,7 @@ body {
   color: #e0e0e0;
 }
 
-.-form__icon {
+.header-form__icon {
   top: 50%;
   transform: translateY(-50%);
   right: 20px;

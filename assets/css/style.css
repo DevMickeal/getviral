@@ -7,14 +7,16 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 a {
-font-weight: 600;
-font-size: 20px;
-line-height: 42px;
-letter-spacing: 0.1px;
-color: #333333;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+  color: #333333;
 }
 a:hover {
-  color: #362F67;
+  text-decoration: none;
+  color: #362F74;
 }
 /*Buttons*/
 .btn-primary {
@@ -24,10 +26,9 @@ a:hover {
   font-weight: 600;
   border-radius: 5px;
 }
-.btn-primary:hover {
-  border: 1px solid #f5f6fa;
-  background-color: #362F67;
-  border-radius: 5px;
+.btn-primary:hover{
+  
+  background: #333333;;
 }
 .btn-notification {
   background: var(--notification);
@@ -136,4 +137,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
