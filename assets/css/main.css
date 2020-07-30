@@ -135,7 +135,7 @@ body {
   color: #e0e0e0;
 }
 
-.header-form__icon {
+.-form__icon {
   top: 50%;
   transform: translateY(-50%);
   right: 20px;
@@ -209,7 +209,7 @@ body {
 
   .main-content {
     margin-left: 200px;
-    background-color: #e5e5e5;
+    background-color: #f5f6fa;
   }
 
 
