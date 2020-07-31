@@ -27,8 +27,7 @@ a:hover {
   border-radius: 5px;
 }
 .btn-primary:hover{
-  
-  background: #333333;;
+  background: #2C284F;
 }
 .btn-notification {
   background: var(--notification);
